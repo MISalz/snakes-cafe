@@ -47,7 +47,7 @@ print('***********************************')
 items = {}
 
 while True:
-    order = input('> ')
+    order = input('> ').capitalize
     if order == 'quit':
         break
     elif order not in items:
